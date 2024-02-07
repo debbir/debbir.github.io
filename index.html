@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website portifolio
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b97002aceb.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <p>
+                FRONT-END WEB DEVELOPER
+            </p>
+            <h1>Hi, I'm <span> Deborah Chisenga</span></h1>
+            </div>
+
+        </div>
+    <!---------------------------------- about----------------------------------------------------------------->
+      
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        I'm a undergraduate student doing computer science a bachelors degree,
+                        third year at Mulungushi university 
+                        who's full of enthusiasm and optical about knowing
+                        more in the tech world!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX Web Development</span><br>Designing Web</li>
+                            <li><span>Graphics</span><br>Graphic Desinger</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Not yet</span><br>Not yet</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-now</span><br>Computer Science Student at Mulungushi Universty</li>
+                            <li><span>2016-2020</span><br>Pupil at Milemu Secondary Grade 8-12</li>
+                            <li><span>2009-2015</span><br>Pupil at Twabo Private School Grade 1-7</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------Services------------------------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX Web Designing</h2><!--ththis is a service title-->
+                    <p>I'm dedicated to provide my clients
+                         with the best Website of their choice, 
+                        delivering their ideas into 
+                        real time dynamic webs!
+                     </p><!--this is a service description-->
+                     <a href="https://wa.me/0764546025">See more</a>
+                     </div>
+                     <div>
+                        <i class="fa-solid fa-crop"></i>
+                     <h2>Graphic Designing</h2><!--ththis is a service title-->
+                    <p>I'm specialised in graphix design such as;
+                        poster making, 
+                        flyers, whiteboard aminimation ads, and many more
+                     </p><!--this is a service description-->
+                     <a href="https://wa.me/0764546025">See more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------------------------Portifolio--------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="myWork.jpg">
+                    <div class="layer">
+                        <h3>Personal Website portfolio</h3>
+                        <p>The website helps one to write about themselves so that other
+                            people get to know them.The work they do, services offered, resume
+                        and more!
+                    </p>
+                    <a href="https://wa.me/0773571725"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="myWork2.jpg">
+                    <div class="layer">
+                        <h3>Graphic Design</h3>
+                        <p>We design best flyers, posters, 
+                            whiteboard aminimation ads and many more.
+                    </p>
+                    <a href="https://wa.me/0773571725"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p><a href="mailto:chisengadeborah72@gmail.com" target="_blank" class="btn">See more</a></p>
+        </div>
+    </div>
+    <!-------------------------------contacts--------------------------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <!----<p><i class="fa-solid fa-paper-plane"></i></p>-->
+                    <p><i class="fa-solid fa-phone"></i>0773571725 || 0764546025</p>
+                    <p><a href="mailto:chisengadeborah72@gmail.com"><i class="fa-regular fa-envelope"></i>chisengadeborah72@gmail.com</a></p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/deborahzm04/?igsh=YzljYTk1ODg3Zg%3D%3D"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@chirahzm?_t=8jYgeh4N6ur&_r=1"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/0773571725" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <a href="Images/My CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Deborah. Made with <i class="fa-solid fa-heart"></i> by Deborah Chisenga</p>
+        </div>
+    </div>
+       <script>
+
+      var tablinks = document.getElementsByClassName("tab-links")
+      var tabcontents = document.getElementsByClassName("tab-contents")
+      function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+      }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+          sidemenu.style.right = "0";
+        }
+        function closemenu(){
+          sidemenu.style.right = "-200px";
+        }
+    </script>
+      <script>
+        const scriptURL ='https://script.google.com/macros/s/AKfycbybwSLEOg_RuY3jf16ppeqvC3eBaBAhgZ0YqOVd1ui4L81ULxaPPLOcP095BCN1bz-G/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                    }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
